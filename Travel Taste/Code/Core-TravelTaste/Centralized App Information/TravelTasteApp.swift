@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TravelTasteApp: App {
+    // MARK: - Properties
+    var appService: AppService = .shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            appService.appScene
         }
     }
 }

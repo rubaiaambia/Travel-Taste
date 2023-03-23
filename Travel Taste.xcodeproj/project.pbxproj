@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		7755B9CB29CBD78E00E878D6 /* TravelTasteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7755B9CA29CBD78E00E878D6 /* TravelTasteApp.swift */; };
-		7755B9CD29CBD78E00E878D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7755B9CC29CBD78E00E878D6 /* ContentView.swift */; };
 		7755B9CF29CBD79300E878D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7755B9CE29CBD79300E878D6 /* Assets.xcassets */; };
-		7755B9D229CBD79300E878D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7755B9D129CBD79300E878D6 /* Preview Assets.xcassets */; };
+		77706EEB29CBE9FC0099957B /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77706EEA29CBE9FC0099957B /* MainScreen.swift */; };
+		77B750E129CBF4E800934758 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750E029CBF4E800934758 /* LocationManager.swift */; };
+		77B750E329CBFB4700934758 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750E229CBFB4700934758 /* MainScreenViewModel.swift */; };
+		77B750EB29CC091700934758 /* Travel-Taste-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 77B750E429CC07F500934758 /* Travel-Taste-Info.plist */; };
+		77B750EF29CC146E00934758 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750EE29CC146E00934758 /* MapView.swift */; };
+		77B750F429CC1A4A00934758 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750F329CC1A4A00934758 /* MapViewCoordinator.swift */; };
+		77B750F629CC22EC00934758 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750F529CC22EC00934758 /* AuthenticationService.swift */; };
+		77B750F829CC22FD00934758 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750F729CC22FD00934758 /* DatabaseService.swift */; };
+		77B750FA29CC231500934758 /* CloudStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750F929CC231500934758 /* CloudStorageService.swift */; };
+		77B750FC29CC232300934758 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750FB29CC232300934758 /* UserManager.swift */; };
+		77B750FE29CC233500934758 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B750FD29CC233500934758 /* AppService.swift */; };
+		77B7510129CC236500934758 /* InjectableServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7510029CC236500934758 /* InjectableServices.swift */; };
+		77B7510429CC293800934758 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B7510329CC293700934758 /* Launch Screen.storyboard */; };
 		77CF80D129CBDB68002435E8 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF80D029CBDB68002435E8 /* AssetManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7755B9C729CBD78E00E878D6 /* Travel Taste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Taste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7755B9CA29CBD78E00E878D6 /* TravelTasteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTasteApp.swift; sourceTree = "<group>"; };
-		7755B9CC29CBD78E00E878D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7755B9CE29CBD79300E878D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7755B9D129CBD79300E878D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77706EEA29CBE9FC0099957B /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		77B750E029CBF4E800934758 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		77B750E229CBFB4700934758 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		77B750E429CC07F500934758 /* Travel-Taste-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Travel-Taste-Info.plist"; sourceTree = "<group>"; };
+		77B750EE29CC146E00934758 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		77B750F329CC1A4A00934758 /* MapViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
+		77B750F529CC22EC00934758 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		77B750F729CC22FD00934758 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		77B750F929CC231500934758 /* CloudStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorageService.swift; sourceTree = "<group>"; };
+		77B750FB29CC232300934758 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		77B750FD29CC233500934758 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		77B7510029CC236500934758 /* InjectableServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectableServices.swift; sourceTree = "<group>"; };
+		77B7510329CC293700934758 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		77CF80D029CBDB68002435E8 /* AssetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,24 +75,108 @@
 		7755B9C929CBD78E00E878D6 /* Travel Taste */ = {
 			isa = PBXGroup;
 			children = (
+				77B7510229CC292100934758 /* Supporting Files */,
+				77B750E429CC07F500934758 /* Travel-Taste-Info.plist */,
 				77CF80C929CBDAE7002435E8 /* Code */,
-				7755B9CC29CBD78E00E878D6 /* ContentView.swift */,
-				7755B9D029CBD79300E878D6 /* Preview Content */,
 			);
 			path = "Travel Taste";
 			sourceTree = "<group>";
 		};
-		7755B9D029CBD79300E878D6 /* Preview Content */ = {
+		77706EE529CBE8300099957B /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				7755B9D129CBD79300E878D6 /* Preview Assets.xcassets */,
+				77706EE629CBE8370099957B /* Main */,
 			);
-			path = "Preview Content";
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		77706EE629CBE8370099957B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				77706EE829CBE8420099957B /* View Models */,
+				77706EE729CBE83D0099957B /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		77706EE729CBE83D0099957B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77706EEA29CBE9FC0099957B /* MainScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77706EE829CBE8420099957B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				77B750E229CBFB4700934758 /* MainScreenViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		77B750EC29CC144200934758 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		77B750ED29CC145100934758 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				77B750F029CC19F100934758 /* Map View */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		77B750F029CC19F100934758 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				77B750F229CC1A0B00934758 /* Coordinator */,
+				77B750F129CC19FC00934758 /* View */,
+			);
+			path = "Map View";
+			sourceTree = "<group>";
+		};
+		77B750F129CC19FC00934758 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77B750EE29CC146E00934758 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77B750F229CC1A0B00934758 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				77B750F329CC1A4A00934758 /* MapViewCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		77B750FF29CC234900934758 /* Dependency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				77B7510029CC236500934758 /* InjectableServices.swift */,
+			);
+			path = "Dependency Injection";
+			sourceTree = "<group>";
+		};
+		77B7510229CC292100934758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77B7510329CC293700934758 /* Launch Screen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		77CF80C929CBDAE7002435E8 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				77B750ED29CC145100934758 /* Reusable Views */,
+				77B750EC29CC144200934758 /* Common */,
+				77706EE529CBE8300099957B /* Screens */,
 				77CF80CE29CBDB42002435E8 /* Resources */,
 				77CF80CD29CBDB3C002435E8 /* Data Models */,
 				77CF80CA29CBDAF0002435E8 /* Core-TravelTaste */,
@@ -91,6 +197,11 @@
 		77CF80CB29CBDB08002435E8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				77B750FF29CC234900934758 /* Dependency Injection */,
+				77B750F529CC22EC00934758 /* AuthenticationService.swift */,
+				77B750F729CC22FD00934758 /* DatabaseService.swift */,
+				77B750F929CC231500934758 /* CloudStorageService.swift */,
+				77B750FD29CC233500934758 /* AppService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -122,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				77CF80D029CBDB68002435E8 /* AssetManager.swift */,
+				77B750E029CBF4E800934758 /* LocationManager.swift */,
+				77B750FB29CC232300934758 /* UserManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -184,7 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7755B9D229CBD79300E878D6 /* Preview Assets.xcassets in Resources */,
+				77B7510429CC293800934758 /* Launch Screen.storyboard in Resources */,
 				7755B9CF29CBD79300E878D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +309,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7755B9CD29CBD78E00E878D6 /* ContentView.swift in Sources */,
+				77B750F429CC1A4A00934758 /* MapViewCoordinator.swift in Sources */,
+				77B750EF29CC146E00934758 /* MapView.swift in Sources */,
+				77B750EB29CC091700934758 /* Travel-Taste-Info.plist in Sources */,
+				77B750F629CC22EC00934758 /* AuthenticationService.swift in Sources */,
+				77B750E129CBF4E800934758 /* LocationManager.swift in Sources */,
+				77B750FE29CC233500934758 /* AppService.swift in Sources */,
+				77B750E329CBFB4700934758 /* MainScreenViewModel.swift in Sources */,
+				77B750FC29CC232300934758 /* UserManager.swift in Sources */,
+				77B750F829CC22FD00934758 /* DatabaseService.swift in Sources */,
+				77B7510129CC236500934758 /* InjectableServices.swift in Sources */,
+				77B750FA29CC231500934758 /* CloudStorageService.swift in Sources */,
+				77706EEB29CBE9FC0099957B /* MainScreen.swift in Sources */,
 				77CF80D129CBDB68002435E8 /* AssetManager.swift in Sources */,
 				7755B9CB29CBD78E00E878D6 /* TravelTasteApp.swift in Sources */,
 			);
@@ -326,13 +450,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Travel Taste/Preview Content\"";
 				DEVELOPMENT_TEAM = T4CF832YU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please grant us access to your location in order to use our service";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -355,13 +481,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Travel Taste/Preview Content\"";
 				DEVELOPMENT_TEAM = T4CF832YU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please grant us access to your location in order to use our service";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
